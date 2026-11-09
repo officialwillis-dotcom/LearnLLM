@@ -1,0 +1,24 @@
+Once, in a quiet workshop, a curious clockmaker built a little wooden bird.
+The bird could not fly, but it listened carefully to every sound in the room.
+It heard rain tapping on the window, a kettle singing on the stove, and pages
+turning in the old book beside the lamp. Each morning the clockmaker wound the
+bird and asked it what it had heard. At first it repeated only a few sounds.
+With time, it learned that rain came before the river rose, and that the kettle
+whistled when the water was ready. The bird made no grand predictions. It
+simply noticed patterns, one small moment after another. One bright morning,
+sunlight crossed the workbench, and the bird began a new tune of its own.
+
+Learning a language model is a little like teaching that bird. We show it many
+examples, let it find patterns, and ask it to guess what comes next. A guess
+can be wrong, so we measure the error and gently adjust the model. Repeating
+this process does not give a tiny model human understanding. It gives the model
+a chance to become better at predicting the examples it has seen.
+
+In a small library at the edge of town, a blue notebook rested on a desk.
+Every afternoon, a student opened it and wrote one observation from the day.
+Some notes described clouds gathering above the hills. Others described the
+warm smell of bread from the market or the soft crunch of leaves underfoot.
+The notebook grew slowly, line by line. When the student reread it, familiar
+details began to connect: cloudy mornings often brought rain, and the baker
+opened the shop before the first bus arrived. The notes were simple, but they
+made a useful record of patterns in a changing world.
