@@ -31,7 +31,13 @@ A small, from-scratch GPT-style character language model for learning how traini
    .\.venv\Scripts\python.exe -m pip install -r requirements.txt
    ```
 
-   For an NVIDIA GPU, use the install command recommended by the [official PyTorch selector](https://pytorch.org/get-started/locally/) instead of the last command. Select Windows, Pip, Python, and the CUDA option that matches your setup. Then install any other project dependencies listed in `requirements.txt` (currently just PyTorch).
+   For an NVIDIA GPU, use the install command recommended by the [official PyTorch selector](https://pytorch.org/get-started/locally/) instead of the `requirements.txt` command. Select Windows, Pip, Python, and the CUDA option that matches your setup. Run the selector's `pip install ...` arguments with this project's interpreter, for example:
+
+   ```powershell
+   .\.venv\Scripts\python.exe -m pip install <arguments from the PyTorch selector>
+   ```
+
+   PyTorch is the only project dependency. Do not install `requirements.txt` afterward, as that could replace your CUDA-enabled PyTorch with a CPU build.
 
 4. Check whether PyTorch can use your GPU:
 
